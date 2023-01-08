@@ -1,0 +1,158 @@
+body {
+    width: 1600px;
+    margin-inline: auto;
+}
+
+.banner-section {
+    background-image: url("../images/banner/banner1.png");
+    background-repeat: no-repeat;
+    height: 808px;
+    text-align: end;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 230px;
+}
+
+.banner-section h1 {
+    font-size: 65px;
+    margin: 0px;
+    padding-bottom: 8px;
+}
+
+.btn {
+    padding-inline: 26px;
+    padding-block: 20px;
+    margin-top: 16px;
+    background-color: rgba(241, 91, 34, 1);
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+    color: white;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background-color: rgb(205, 76, 25);
+}
+
+.failures-section {
+    display: flex;
+    align-items: center;
+    margin-top: 131px;
+}
+
+.failures-section img {
+    padding-left: 206px;
+}
+
+.failures-text {
+    padding-left: 87px;
+    padding-top: 200px;
+    width: 316px;
+}
+
+.failures-text h1 {
+    margin: 0px;
+    padding-bottom: 8px;
+}
+
+.failures-text ul {
+    padding-left: 0px;
+}
+
+.failures-text ul li {
+    padding-bottom: 8px;
+}
+
+.text-size {
+    font-weight: 700px;
+    font-size: 40px;
+}
+
+.failures-text li {
+    list-style-type: none;
+}
+
+.icon-color {
+    color: aqua;
+    padding-right: 6px;
+}
+
+.plan-section {
+    width: 1141px;
+    margin-inline: auto;
+    margin-top: 130px;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.call-section {
+    width: 1140px;
+    margin-inline: auto;
+    position: relative;
+    margin-top: 130px;
+}
+
+.watch-img {
+    background-image: url("../images/watch.png");
+}
+
+.call-text {
+    position: absolute;
+    top: 0px;
+    padding-left: 64px;
+    padding-top: 26px;
+}
+
+.call-text h1 {
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+}
+
+.white-btn {
+    padding-inline: 36px;
+    padding-block: 20px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(241, 91, 34, 1);
+}
+
+.call-text button:hover {
+    background-color: azure;
+}
+
+.footer {
+    background-color: rgba(21, 20, 20, 1);
+    color: white;
+    margin-top: 130px;
+}
+
+.footer-size {
+    width: 1140px;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 577px;
+}
+
+.input-style {
+    border: 1px solid #ccc;
+    background-color: rgba(21, 20, 20, 1);
+    width: 325px;
+    height: 64px;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 16px;
+    color: white;
+    padding-left: 16px;
+}
